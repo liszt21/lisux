@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  guix-develop:
+    build: guix
+    privileged: true
+    entrypoint: "/bin/bash"
+    stdin_open: true
+    tty: true
